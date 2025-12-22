@@ -5,6 +5,10 @@
   <Folder Name="/Solution Items/.changeset/">
     <File Path=".changeset/config.json" />
   </Folder>
+  <Folder Name="/Solution Items/.github/" />
+  <Folder Name="/Solution Items/.github/workflows/">
+    <File Path=".github/workflows/release.yml" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/Marekth.NetChangesets.Demo.AwesomePackage/Marekth.NetChangesets.Demo.AwesomePackage.csproj" />
   </Folder>
