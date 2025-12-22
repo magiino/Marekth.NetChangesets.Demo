@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="Marekth.NetChangesets.Demo/Marekth.NetChangesets.Demo.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/Solution Items/.changeset/">
+    <File Path=".changeset/config.json" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Marekth.NetChangesets.Demo.AwesomePackage/Marekth.NetChangesets.Demo.AwesomePackage.csproj" />
+  </Folder>
 </Solution>
