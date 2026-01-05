@@ -1,5 +1,11 @@
 # Marekth.NetChangesets.Demo.AwesomePackage
 
+## 0.3.1
+
+**Patch Changes**:
+
+- Fix bug in FantasticMethod
+
 ## 0.3.0
 
 **Minor Changes**:
