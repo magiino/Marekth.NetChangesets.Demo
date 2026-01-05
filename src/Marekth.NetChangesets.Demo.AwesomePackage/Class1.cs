@@ -4,6 +4,7 @@ public static class Awesome
 {
     public  static void AwesomeMethod()
     {
+        // Fixed bug
     }
 
     public static void FantasticMethod()
