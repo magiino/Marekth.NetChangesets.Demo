@@ -9,6 +9,7 @@ public static class Awesome
 
     public static void FantasticMethod()
     {
+        // Fixed bug 1
     }
 
     public static void SomeMethod()
