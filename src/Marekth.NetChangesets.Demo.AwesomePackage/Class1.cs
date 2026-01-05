@@ -13,5 +13,10 @@ public static class Awesome
 
     public static void SomeMethod()
     {
+        // Fixed bug 1
+    }
+
+    public static void NewYear()
+    {
     }
 }
