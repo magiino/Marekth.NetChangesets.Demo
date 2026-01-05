@@ -12,6 +12,8 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
+              with:
+                fetch-depth: 2 # Fetch the last 2 commits because net-changesets publish is comparing those two commits
 
             - name: Setup Node.js 20.x
               uses: actions/setup-node@v4
@@ -28,6 +30,12 @@ jobs:
 
             - name: Install net-changesets tool
               run: dotnet tool install solarwinds.changesets --global --version 0.1.4
+
+            - name: Show net-changesets tool version
+              run: changeset --version
+
+            - name: Ensure NugetFolderSource folder exists
+              run: mkdir -p NugetFolderSource
 
             - name: Create Release Pull Request or Publish to npm
               id: changesets
