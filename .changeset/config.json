@@ -1,4 +1,4 @@
 {
   "sourcePath": "src",
-  "packageSource": "nuget"
+  "packageSource": "NugetFolderSource"
 }
