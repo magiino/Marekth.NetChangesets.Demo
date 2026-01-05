@@ -10,4 +10,8 @@ public static class Awesome
     public static void FantasticMethod()
     {
     }
+
+    public static void SomeMethod()
+    {
+    }
 }
