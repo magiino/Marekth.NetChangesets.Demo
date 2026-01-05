@@ -1,5 +1,11 @@
 # Marekth.NetChangesets.Demo.AwesomePackage
 
+## 0.2.0
+
+**Minor Changes**:
+
+- New Somemethod added
+
 ## 0.1.1
 
 **Patch Changes**:
