@@ -19,5 +19,6 @@ public static class Awesome
 
     public static void NewYear()
     {
+
     }
 }
